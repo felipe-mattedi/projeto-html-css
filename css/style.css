@@ -1,0 +1,327 @@
+.header .header-nav .menu-mobile{
+  display:none;
+}
+
+.header .header-nav ul{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  font-weight: 600;
+  margin: 2rem auto;
+  width: 70%;
+}
+
+.header .header-nav .header-item{
+  margin: 0 1rem;
+  text-decoration: none;
+  color:black;
+  font-size: 1.1rem;
+}
+
+.area1 {
+  width: 70% ;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 4rem auto 4rem auto;
+}
+
+.area1 .area1-text{
+  width:55%;
+}
+
+.area1 .area1-text h1{
+  font-size:2.8rem;
+  font-weight: 800;
+}
+
+.area1 .area1-text p{
+  text-align: justify;
+  margin:2rem 0;
+}
+
+.area1 .area1-text .button{
+  background-color:#00A8CC;
+  color:white;
+  border:0;
+  height: 2.3rem;
+  width: 10rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.area1 .area1-text .form{
+
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.area1 .area1-text .form label{
+
+  font-weight: 700;
+ 
+ }
+
+.area1 .area1-text .form input, textarea{
+
+ margin:0 0 0.5rem 0;
+
+}
+
+.recent-posts{
+  background-color: #EDF7FA;
+}
+
+.recent-posts .posts-header{
+ width: 70%;
+ display:flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ margin:0 auto;
+ padding-top: 1.3rem;
+}
+ 
+.recent-posts .posts-header h2{
+  font-size: 1.2rem;
+  font-weight: 400;
+ }
+
+ .recent-posts .posts-header a{
+ text-decoration: none;
+ color: #00A8CC;
+}
+
+.recent-posts .posts-box{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:0 auto;
+  padding:1.3rem 0;
+
+}
+
+.recent-posts .posts-box .box{
+  background-color: white;
+  width: 49%;
+  padding:1.5rem 1rem;
+  
+}
+
+.recent-posts .posts-box .box .date-subj{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 1.5rem 0;
+  font-weight: 200;
+}
+
+.recent-posts .posts-box .box .date-subj hr{
+  border: 0.005rem solid #000000;
+}
+
+.recent-posts .posts-box .box .date-subj .date{
+  margin: 0 1rem;
+}
+.recent-posts .posts-box .box .date-subj .date:first-of-type{
+  margin: 0 1rem 0 0;
+}
+
+.featured-works {
+  width: 70%;
+  margin:1.3rem auto 5rem auto;
+}
+
+.featured-works hr{
+  border: 0.005rem solid #E0E0E0;
+}
+
+.featured-works h2{
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+ }
+
+ .featured-works .featured-box{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1.5rem 0;
+
+ }
+
+ .featured-works .featured-box .featured-text{
+   display: flex;
+   flex-direction: column;
+   margin-left: 1rem;
+}
+
+ .featured-works .featured-box .featured-text h3{
+  font-size: 1.6rem;
+
+}
+
+ .featured-works .featured-box .featured-text .year-subj{
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+
+}
+
+.featured-works .featured-box .featured-text .year-subj .year{
+  color:white;
+  background-color: #21243D;
+  border-radius: 1rem;
+  font-weight: 600;
+  padding:0 0.3rem;
+  margin-right: 2rem;
+}
+
+.featured-works .featured-box .featured-text .year-subj h4{
+  color:#8695A4;
+  font-weight: 400;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:0 auto;
+  width: 70%;
+}
+
+.footer h5{
+  font-weight: 300;
+  margin:2rem 0;
+}
+
+.footer .footer-nav{
+  display:flex;
+  flex-direction: row;
+ 
+}
+
+.footer .footer-nav .social{
+margin: 0 1.2rem;
+}
+
+@media (max-width: 768px) {
+
+  .header .header-nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width:90%;
+    margin: 1rem auto;
+
+  }
+
+  .header .header-nav ul{
+    display:none
+  }
+
+  .header .header-nav .menu-mobile{
+    display: flex;
+    width: 5%;
+    
+  }
+
+  .header .header-nav .menu-mobile img{
+  width:100%;
+  margin:0 0 0 auto;
+  }
+
+   .area1{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin:2rem 0;
+  
+  }
+
+  .area1 .area1-text h1{
+    font-size:2rem;
+    font-weight: 800;
+  }
+  
+  .area1 img{
+    width:80%;
+  }
+
+    .recent-posts .posts-box{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    padding:1rem 0;
+
+    }
+    .recent-posts .posts-box .box:first-of-type{
+      margin-bottom: 1rem;
+      }
+
+    .recent-posts .posts-header {
+      display: flex;
+      justify-content: center;
+      }
+
+    .recent-posts .posts-header a{
+      display: none;
+      }
+
+      .recent-posts .posts-box{
+        width:80%;
+        margin: 0 auto;
+      }
+
+
+      .recent-posts .posts-box .box{
+        background-color: white;
+        width: 100%;
+        height: 40%;
+        padding:1.5rem 1rem;
+        
+      }
+
+      .recent-posts .posts-box .box .date-subj .date{
+        margin: 0 0.5rem;
+        font-weight: 200;
+      }
+
+      .recent-posts .posts-box .box .date-subj .date:first-of-type{
+        margin:  0 0.5rem;
+        font-weight: 200;
+      }
+
+      
+      .featured-works {
+        width: 80%;
+      }
+
+      .featured-works .featured-box{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+      }
+
+      .featured-works h2{
+        text-align: center;
+      }
+
+      .featured-works .featured-text{
+        width: 100%;
+      }
+
+      
+
+}
